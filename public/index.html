@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extracción de datos con Puppeteer</title>
+</head>
+<body>
+  <h1>Extracción de datos con Puppeteer</h1>
+  <form id="cedulaForm" enctype="multipart/form-data">
+    <label for="cedulas">Seleccione un archivo de Excel con las cédulas:</label>
+    <input type="file" id="cedulas" name="cedulas" required>
+    <button type="submit">Extraer datos</button>
+  </form>
+  
+  <div id="resultado"></div> <!-- Aquí se mostrará la lista -->
+  <ul id="cuponesLista"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
